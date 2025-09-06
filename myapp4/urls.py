@@ -7,5 +7,6 @@ urlpatterns = [
     path('register', register, name='register'),
     path('login', login, name='login'),
     path('filter_author', filter_author, name='filter_author'),
+    path('add_post', add_post, name='add_post'),
 
 ]

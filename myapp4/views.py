@@ -31,10 +31,10 @@ def filter_author(request):
 
     return render(request, 'filter_author.html', ctx)
 
-def register(request):
+def add_post(request):
     ctx = {
 
     }
 
-    return render(request, 'register.html', ctx)
+    return render(request, 'add_post.html', ctx)
 
