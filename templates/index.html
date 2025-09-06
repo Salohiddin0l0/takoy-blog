@@ -27,11 +27,11 @@
                class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Asosiy</a>
             <a href="{% url 'register' %}" onclick="window.location.href='register.html'"
                class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Registratsiya</a>
-            <a href="#" onclick="window.location.href='login.html'"
+            <a href="{% url 'login' %}" onclick="window.location.href='login.html'"
                class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Login</a>
             <a href="add-post.html" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Post
                 Qo‘shish</a>
-            <a href="filter-author.html"
+            <a href="{% url 'filter-author' %} "
                class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Muallif Filteri</a>
         </nav>
     </div>
