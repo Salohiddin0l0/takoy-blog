@@ -9,3 +9,13 @@ def index(request):
     }
 
     return render(request, 'index.html', ctx)
+
+def register(request):
+    ctx = {
+
+    }
+
+    return render(request, 'register.html', ctx)
+
+
+
