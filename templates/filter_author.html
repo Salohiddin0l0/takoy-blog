@@ -22,11 +22,11 @@
         <div class="container mx-auto flex justify-between items-center px-4">
             <h1 class="text-4xl font-extrabold tracking-wider gradient-text">Takoy Blog</h1>
             <nav class="space-x-6">
-                <a href="index.html" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Asosiy</a>
-                <a href="#" onclick="window.location.href='register.html'" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Registratsiya</a>
-                <a href="#" onclick="window.location.href='login.html'" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Login</a>
-                <a href="add-post.html" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Post Qo‘shish</a>
-                <a href="filter-author.html" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Muallif Filteri</a>
+                <a href="{% url 'index' %}" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Asosiy</a>
+                <a href="{% url 'register' %}" onclick="window.location.href='register.html'" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Registratsiya</a>
+                <a href="{% url 'login' %}" onclick="window.location.href='login.html'" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Login</a>
+                <a href="{% url 'add_post' %}" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Post Qo‘shish</a>
+                <a href="{% url 'filter_author' %}" class="hover:text-pink-200 transition-colors duration-300 font-semibold text-lg">Muallif Filteri</a>
             </nav>
         </div>
     </header>
